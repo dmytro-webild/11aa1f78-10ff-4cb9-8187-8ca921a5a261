@@ -6,7 +6,7 @@ import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FaqBase from '@/components/sections/faq/FaqBase';
 import FeatureHoverPattern from '@/components/sections/feature/featureHoverPattern/FeatureHoverPattern';
 import FooterSimple from '@/components/sections/footer/FooterSimple';
-import HeroBillboardCarousel from '@/components/sections/hero/HeroBillboardCarousel';
+import HeroBillboard from '@/components/sections/hero/HeroBillboard';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 import { Building, Droplets, Grid, Home, Leaf, Play, Sun } from "lucide-react";
 
@@ -43,7 +43,7 @@ export default function LandingPage() {
   </div>
 
   <div id="hero" data-section="hero">
-      <HeroBillboardCarousel
+      <HeroBillboard
       background={{
         variant: "gradient-bars"}}
       title="Restore Your Property's Original Beauty"
@@ -52,20 +52,8 @@ export default function LandingPage() {
         {
           text: "Get a Free Quote",          href: "#contact"},
       ]}
-      mediaItems={[
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-washing-her-car-outdoors_23-2148958773.jpg",          imageAlt: "Professional Pressure Washing"},
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/person-wearing-yellow-rubber-boots-with-high-pressure-water-nozzle-cleaning-dirt-tiles_181624-23652.jpg",          imageAlt: "Home Restoration"},
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-blind-man-walking-with-cane_23-2149445653.jpg",          imageAlt: "Concrete Cleaning"},
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/man-worker-firld-by-solar-panels_1303-15605.jpg",          imageAlt: "Roof Washing"},
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/man-uniform-trimming-hedge-summer-time_7502-9829.jpg",          imageAlt: "Patio Restoration"},
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/young-woman-washing-blue-car-car-wash_1153-8840.jpg",          imageAlt: "Commercial Cleaning"},
-      ]}
+      imageSrc="http://img.b2bpic.net/free-photo/woman-washing-her-car-outdoors_23-2148958773.jpg"
+      imageAlt="Professional Pressure Washing"
     />
   </div>
 
