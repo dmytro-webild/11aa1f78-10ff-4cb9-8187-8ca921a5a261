@@ -33,7 +33,7 @@ export default function LandingPage() {
         { name: "Quote", id: "contact" },
       ]}
       brandName="Restoration Pressure Washing"
-      logoSrc="https://img.b2bpic.net/free-photo/shiny-logo-icon_23-2149557712.jpg"
+      logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BuzQ4dbCroVfCsOEAadeG7Wc5f/uploaded-1775359619593-wxm32qd5.png"
       logoAlt="Company Logo"
       logoClassName="w-16 h-16"
       button={{
