@@ -116,15 +116,17 @@ export default function LandingPage() {
       useInvertedBackground={false}
       title="Request Your Free Quote"
       description="Ready to restore your property? Contact us today for a free, no-obligation quote."
+      titleClassName="text-3xl lg:text-4xl"
+      descriptionClassName="text-lg lg:text-xl"
       inputs={[
         {
           name: "name",          type: "text",          placeholder: "Your Name",          required: true,
         },
         {
-          name: "phone",          type: "tel",          placeholder: "Phone Number",          required: true,
+          name: "phone",          type: "tel",          placeholder: "502-813-9773",          required: true,
         },
         {
-          name: "email",          type: "email",          placeholder: "Email Address",          required: true,
+          name: "email",          type: "email",          placeholder: "restorationpressurewashing.co@gmail.com",          required: true,
         },
       ]}
       textarea={{
@@ -143,9 +145,9 @@ export default function LandingPage() {
         {
           title: "Contact",          items: [
             {
-              label: "(555) 123-4567",              href: "tel:5551234567"},
+              label: "502-813-9773",              href: "tel:5028139773"},
             {
-              label: "contact@restorationwash.com",              href: "mailto:contact@restorationwash.com"},
+              label: "restorationpressurewashing.co@gmail.com",              href: "mailto:restorationpressurewashing.co@gmail.com"},
           ],
         },
         {
