@@ -7,7 +7,7 @@ import FaqBase from '@/components/sections/faq/FaqBase';
 import FeatureHoverPattern from '@/components/sections/feature/featureHoverPattern/FeatureHoverPattern';
 import FooterSimple from '@/components/sections/footer/FooterSimple';
 import HeroBillboardCarousel from '@/components/sections/hero/HeroBillboardCarousel';
-import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
+import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 import { Building, Droplets, Grid, Home, Leaf, Play, Sun } from "lucide-react";
 
 export default function LandingPage() {
@@ -26,18 +26,19 @@ export default function LandingPage() {
     >
       <ReactLenis root>
   <div id="nav" data-section="nav">
-      <NavbarLayoutFloatingInline
+      <NavbarStyleCentered
       navItems={[
-        {
-          name: "Home",          id: "hero"},
-        {
-          name: "Services",          id: "services"},
-        {
-          name: "Quote",          id: "contact"},
+        { name: "Home", id: "hero" },
+        { name: "Services", id: "services" },
+        { name: "Quote", id: "contact" },
       ]}
       brandName="Restoration Pressure Washing"
+      logoSrc="https://img.b2bpic.net/free-photo/shiny-logo-icon_23-2149557712.jpg"
+      logoAlt="Company Logo"
+      logoClassName="w-16 h-16"
       button={{
-        text: "Get a Free Quote",        href: "#contact"}}
+        text: "Get a Free Quote", href: "#contact"
+      }}
     />
   </div>
 
