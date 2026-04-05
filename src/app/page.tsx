@@ -54,7 +54,7 @@ export default function LandingPage() {
       ]}
       mediaItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-washing-her-car-outdoors_23-2148958773.jpg",          imageAlt: "Professional Pressure Washing"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BuzQ4dbCroVfCsOEAadeG7Wc5f/uploaded-1775358439286-wqrc4h5n.png",          imageAlt: "Professional Pressure Washing"},
         {
           imageSrc: "http://img.b2bpic.net/free-photo/person-wearing-yellow-rubber-boots-with-high-pressure-water-nozzle-cleaning-dirt-tiles_181624-23652.jpg",          imageAlt: "Home Restoration"},
         {
